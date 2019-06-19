@@ -1,0 +1,68 @@
+body{
+  background-color: white;
+}
+
+h1{
+  color: salmon;
+  display:flex;
+  justify-content: center;
+  text-decoration: line-through;
+  letter-spacing: 15px;
+  line-height: 2;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+h3{
+  color: gray;
+  display:flex;
+  justify-content: center;
+  letter-spacing: 8px;
+  line-height: .8;
+  font-size: 20px;
+  font-family: cursive;
+}
+.beds{
+  display:flex;
+  align-items: center;
+  border-style: double;
+  border-width: 6px;
+  justify-content: space-between;
+  background-color:#FFB6B3;
+}
+.plants{
+  display: flex;
+  align-items:flex-start;
+  border-style: double;
+  border-width: 6px;
+  justify-content: space-between;
+  background-color: #B35E59;
+}
+.lighting{
+  display: flex;
+  align-items: flex-end;
+  border-style: double;
+  border-width: 6px;
+  justify-content: space-between;
+  background-color: #B3FFD0;
+}
+.windows{
+  display:flex;
+  align-items:center;
+  border-style: double;
+  border-width: 6px;
+  justify-content: space-between;
+  background-color: #CCFFE0;
+}
+.roomdecor{
+  display: flex;
+  align-items: center;
+  border-style: double;
+  border-width: 6px;
+  justify-content: space-between;
+  background-color:#6BB386;
+}
+@media screen and (max-width: 700px) {
+  body {
+    background-color: gray;
+  }
+}
